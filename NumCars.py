@@ -48,7 +48,7 @@ while True:
                 print(Command)
             elif numCars >= 10:
                 Command = 'ON'
-                cv2.putText(frame, 'Car Numbers: ' + str(numCars), (10, 30), cv2.FONT_ITALIC, 1, (0, 0, 255), thickness=3) # تغيير لون نص عدد السيارات المكتشفه إلى الأخضر
+                cv2.putText(frame, 'Car Numbers: ' + str(numCars), (10, 30), cv2.FONT_ITALIC, 1, (0, 0, 255), thickness=3) # تغيير لون نص عدد السيارات المكتشفه إلى الأحمر
                 print(Command)
 
             cv2.imshow('program', frame) # عرض الإطار امعالج
